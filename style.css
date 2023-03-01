@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+body {
+    background-color: #C3F73A;
+}
+
+div {
+    width: 100%;
+    position: relative;
+}
+
+p {
+    margin: 40px, 40px;
+}
+
+.navigation {}
+
+.nice {
+    text-align: center;
+    padding: 50px;
+    margin-top: 60px;
+    font-size: 50px;
+    color: black;
+}
+
+.one a:hover,
+.two a:hover,
+.three a:hover,
+.four a:hover {
+    color: black;
+    background-color: #B1E135;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-paragraph {
+    padding: 40px;
+    margin-right: 0;
+    padding-right: 40px;
+    background-color: #B1E135;
+}
+
+.second {
+    padding: 40px;
+    margin-right: 0;
+    padding-right: 40px;
+}
+
+.one a,
+.two a,
+.three a,
+.four a {
+    background-color: black;
+    color: white;
+    width: 25vw;
+    height: 75px;
+    padding: 20px;
+    transition-property: background, color;
+    transition-duration: 0.7s;
+    position: absolute;
+}
+
+.one {
+    left: 0%;
+    top: 0%;
+}
+
+.three {
+    left: 50%;
+    top: 0%;
+}
+
+.two {
+    left: 25%;
+    top: 0;
+}
+
+.four {
+    left: 75%;
+    top: 0%;
+}
